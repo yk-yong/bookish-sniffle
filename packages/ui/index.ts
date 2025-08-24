@@ -13,3 +13,4 @@ export * from './src/table';
 export * from './src/tag';
 export * from './src/inputs';
 export * from './src/modal';
+export * from './src/pagination';

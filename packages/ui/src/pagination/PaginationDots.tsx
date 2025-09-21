@@ -1,4 +1,4 @@
-import { View } from '@packages/ui';
+import { View } from '@quanta-studio/ui';
 import { StyleSheet } from 'react-native';
 
 export type PaginationDotsProps = {
@@ -26,7 +26,8 @@ export default function PaginationDots({
           style={[
             styles.dot,
             {
-              backgroundColor: index === currentIndex ? activeColor : inactiveColor,
+              backgroundColor:
+                index === currentIndex ? activeColor : inactiveColor,
               width: dotSize,
               height: dotSize,
               borderRadius: dotSize / 2,
